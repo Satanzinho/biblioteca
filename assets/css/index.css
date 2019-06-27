@@ -20,9 +20,11 @@ ul {
 }
 li{
 	float:left;
-	padding:20px;
 	text-decoration:none;
 	list-style:none;
+}
+.UL-MenuTopo li{
+	padding:20px;
 }
 a{
 	text-decoration:none;
