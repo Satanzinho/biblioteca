@@ -2,6 +2,8 @@
         <div class="caixa">
         </div>
       </div>
+
+<!--Pode copiar daqui -->      
 <div class="bd-example">
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -42,6 +44,8 @@
     </a>
   </div>
 </div>
+<!--Até aqui -->
+
   <section class="principal">
       <div class="coluna">
         <figure class="foto"><img src="img/foto-01.jpg"></figure>
