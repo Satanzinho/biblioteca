@@ -12,6 +12,7 @@
 		<meta name="reply-to" content="mateheusoliver@gmail.com / lassancejorgeluiz@gmail.com">
 		<meta name="generator" content="NotePad++ 6.5.2">
 		<meta name="robots" content="index,follow">
+		<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>assets/css/index.css">
 	</head>
 	<body>
@@ -44,5 +45,7 @@
       <small class="creditos">Criado por <a href="http://www.popupdesign.com.br">Dani Guerrato</a>. Para o <a href="http://www.tableless.com.br">Tableless</a>. </small>
   	</footer>
   </div>
+  <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/jquery.min.js"></script>
+  <script type="text/javascript" src="<?php echo BASE_URL; ?>assets/js/bootstrap.bundle.min.js"></script>
 	</body>
 </html>
