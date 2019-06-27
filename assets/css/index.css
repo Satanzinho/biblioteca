@@ -165,3 +165,31 @@ font-weight:bold;
 
 /*correções*/
 
+/* Arquivos Home.css
+
+/*Classes*/
+.caixa {
+   width: 42.553191489362%; /* 264px / 1128px */
+   padding: 2.4em 4em 2.4em 4em;
+   position: absolute;
+   top: 48px;
+}
+.banner {
+   background: url('../images/codigo davinci.jpg') no-repeat;
+   height: 450px;
+   margin-bottom: 4.8em;
+   margin-top: 15px;
+   position: relative;
+   background-size:cover;
+   border-radius:15px;
+  
+}
+
+/*IDs*/
+
+.cart{
+	position:absolute;
+	top:150px;
+	right:200px;
+	font-size:70px;
+}
