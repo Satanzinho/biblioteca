@@ -1,51 +1,23 @@
-/*Seletores*/
-@import  " https://use.fontawesome.com/releases/v5.5.0/css/all.css " ;
 body{
-  font-size: 62.5%;
+	max-width: 1200px;
+  	font-size: 62.5%;
     line-height: 1.5;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-nav ul ul {
-    display: none;
-}
-nav ul li:hover > ul {
-    display: block;
+    margin-left:50px;
 }
 nav {
     margin: 0 auto;
 	text-align: center;
 }
-ul {
-}
 li{
 	float:left;
+	padding:20px;
 	text-decoration:none;
 	list-style:none;
-}
-.UL-MenuTopo li{
-	padding:20px;
 }
 a{
 	text-decoration:none;
 	list-style:none;
-	z-index:1;
-	color:black;
-	
-}
-a.A-MenuTopo:hover{
-	color:blue;
-
-}
-a.A-MenuDropdown:link{
-
-}
-a.A-MenuDropdown2:hover{
-
-}
-img {
-	max-width: 100%;
-	
 }
 h1{
 	font-size:70px;
@@ -65,64 +37,86 @@ p{
 	font-family:Arial, Verdana, Helvetica, sans-serif;
 	text-align:center;
 }
-section{
-
-}
-article{
-
-	
-}
-footer{
-
-}
-img,
-picture,
-video,
-embed {
-   max-width: 100%;
-}
-
 
 /*Classes*/
 
-.DIV-Container{
-	  max-width: 1128px;
-		margin: 0 auto;
+.Container{
+		max-width: 1200px;
+		margin-left: 0%;
+		margin-right:0%;
 }
 .NAV-MenuTopo{
-   width: 74.468085106383%; /*840px / 1128px */
+   width: 100%;
+   height:50px;
+   display:block;
   
 }
 .logo{
 	float:left;
-	width: 30.744680851064%; /*234px / 1128px */
-
+	width: 50%;
+	height:400px;
+	float:left;
 }
 .P-Titulo{
-	
-	font-size: 762.5%;
-	width:10em;
+	font-size:8.5em;
+	position:relative;
+	top:120px;
+	left:-86px;
+	width:50%;
 	font-family:Bradley Hand;
+	float:right;
+	text-shadow: 2px 2px orange;
 	
 }
 .DIV-Imagem{
 	max-width:100%;
-	height:258px;
+	height:400px;
+	display:block;
+}
+.DIV-Redes-Sociais{
+	position: relative;
+	width: 1200px;
+	height:55px;
+}
+.IMG-IconesSociais{
+	width:50px;
+	height: 45px;
+	border-radius: 50px;
+	float: Left;
+	margin:5px;
+}
+.IMG-Icone-Shop{
+	width:50px;
+	height: 45px;
+	border-radius: 50px;
+	float: right;
+	margin:5px;
+}
+.A-Icones-redes-sociais{
+	width: 50px;
+	height: 45px;
+}
+.A-A-Icone-Shoping{
+	width: 50px;
+	height: 45px;
+}
+.A-MenuTopo{
+position:relative;
+top:13px;
+font-weight:bold;
+color:white;
+}
+.A-MenuTopo:hover{
+	color:orange;
+	text-shadow: 1px 2px black;
+}
+.A-MenuTopo2{
+	height:2px;
+	width:5px;
+	color:orange;
+	background-color:orange;
+	border-radius:15px;
 
-}
-.header{
-	 width: 100%;
-    height: 270px;
-    margin-top: 3.6em;
-    margin-bottom: 7.6em;
-}
-.coluna {
-   width: 23.404255319149%; /* 264px / 1128px */
-   margin-right: 2.127659574468%; /* 24 / 1128px */
-float: left;
-}
-.coluna:last-child {
-   margin-right: 0;
 }
 .footer {
    width: 100%;
@@ -131,67 +125,154 @@ float: left;
    float: left;
    clear: both;
 }
-.clearfix:before,
-.clearfix:after {
-    content: " "; 
-    display: table; 
-}
-.clearfix:after {
-    clear: both;
-}
-.clearfix {
-    *zoom: 1;
-}
 .LI-MenuTopo{
-	border:5px;
-	border-color: black;
-	
+	height:50px;
+	width:11.53%;
+	padding: 0px 23px 0px 23px;
+	background-color:black;
+	background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.4), rgba(255,255,255,0), rgba(255,255,255,.4));
+}
+.LI-MenuTopo2{
+	width:8px;
+	height:10px;
+	 border-radius:25px;
+	 background-color:black;
+	 margin:1px;
 }
 .UL-MenuTopo{
-background-size:cover;
-height:55px;
-margin:0;
+height:50px;
+margin-top:5px;
 font-family:Bradley Hand;
 font-size:1.6em;
 font-weight:bold;
+padding:0;
 
 }
-.UL-MenuTopo2{
-	float:left;
-}
-.SPAN-Titulo{
-	Width:150px;
+.P-redes-sociais{
+	
 }
 
 /*IDs*/
 
 /*correções*/
 
-/* Arquivos Home.css
+#Co-MenuTopo-QuemSomos{
+	padding: 0px 13px 0px 13px;
+}
+#Co-A-MenuTopo2{
+	position:relative;
+	left:-7px;
+}
 
-/*Classes*/
-.caixa {
-   width: 42.553191489362%; /* 264px / 1128px */
-   padding: 2.4em 4em 2.4em 4em;
-   position: absolute;
-   top: 48px;
-}
-.banner {
-   background: url('../images/codigo davinci.jpg') no-repeat;
-   height: 450px;
-   margin-bottom: 4.8em;
-   margin-top: 15px;
-   position: relative;
-   background-size:cover;
-   border-radius:15px;
-  
-}
 
 /*IDs*/
 
-.cart{
+/*  ------------------------------------------------------------------- Arquivos Home.css --------------------------------------- */
+
+/*Classes*/
+.galeria{
+	margin: 50px 0px;
+	max-width: 1200px;
+	height: 400px;
+	position:relative;
+	overflow:hidden;
+	border-radius: 20px;
+	border: 2px ;
+	border-color: orange;
+	border-style: inset;
+}
+.DIV-Full{
+	max-width:1200px;
+}
+.P-destaques{
+	font-size:3em;
+	font-family:Bradley Hand;
+	text-shadow: 1px 1px orange;
+}
+.P-Conteúdo{
+	
+}
+.foto{
+	width: 100%;
 	position:absolute;
-	top:150px;
-	right:200px;
-	font-size:70px;
+	opacity: 0;
+	animation-name: slider;
+	animation-duration: 60s;
+	animation-iteration-count: infinite;
+}
+.foto:nth-child(1){
+border-image-source: 
+}
+.foto:nth-child(2){
+	animation-delay: 10s;
+}
+.foto:nth-child(3){
+	animation-delay: 20s;
+}
+.foto:nth-child(4){
+	animation-delay: 30s;
+}
+@keyframes slider{
+
+	25%{
+		opacity: 1;
+		transform: scale(1.0,1.0);
+
+	}
+	50%{
+		opacity: 0;
+
+	}
+}
+.DIV-coluna{
+	width:600px;
+	float:left;
+}
+.IMG-Luciano{
+	margin-left:200px;
+}
+.DIV-coluna2{
+	width:600px;
+	float:right;
+}
+.principal{
+	max-width: 1300px;
+	margin-left: 5%;
+	margin-right:5%;
+}
+.SPAN-sebo-ventura{
+	font-weight:bold;
+	font-style: italic;
+}
+
+/* css Jorge */ 
+.area-login-cadastro{
+	display:flex;
+	justify-content: space-between;
+	width:200px;
+	margin:auto;
+}
+.login-cadastro{
+	width:100px;
+	font-size:14px;
+	text-align:center;
+	color:#000;
+	border-radius: 50px;
+	border:1px solid #000;
+	margin:5px;
+}
+.login-cadastro:hover{
+	background-color:rgba(234,234,234, 0.5);
+}
+.container-login-cadastro{
+	width:800px;
+	margin:auto;
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+.container-login-cadastro input{
+	width:50%;
+	height:30px;
+	font-size:16px;
 }

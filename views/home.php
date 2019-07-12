@@ -1,75 +1,21 @@
-   <div class="banner">
-        <div class="caixa">
+<section class="Container">
+      <div class="DIV-Full">
+        <P class="P-destaques">Destaques do mês</P>
+      </div>
+      <div class="galeria">
+      <a href="https://www.facebook.com"><img src="<?php echo BASE_URL; ?>Assets\Imagens\codigo davinci.jpg" class="foto"></a>
+      <a href="https://www.instagran.com"><img src="<?php echo BASE_URL; ?>Assets\Imagens\sebo.jpg" class="foto"></a>
+      <a href="https://www.google.com"><img src="<?php echo BASE_URL; ?>Assets\Imagens\logo sebo ventura.jpg" class="foto"></a>
+      <a href="https://www.google.com"><img src="<?php echo BASE_URL; ?>Assets\Imagens\codigo davinci.jpg" class="foto"></a>
+      </div>
+      <div class="DIV-Full">
+        <div class="DIV-coluna">
+          <p class="P-Conteúdo">Na sebo ventura voce encontra uma grande variedade de livros, Hqs, enciplopédias, dicionários e até livros em outros idiomas! Temos também discos de vinis dos mais variados gêneros e gostos, alguns deles Raros e extremamente difíceis de achar, até mesmo na internet!</p>
+  <br>
+          <p>Temos ainda miniaturas, chaveiros, action figures e artigos para colecionadores! já deu pra perceber que a <span class="SPAN-sebo-ventura">Sebo Ventura</span> não é um lugar qualquer né? dê um pulinho na nossa loja, garantimos um excelente atendimento e ótimos preços. Se preferir, compre conosco aqui mesmo, na nossa lojinha virtual.</p>   
         </div>
-      </div>
-
-<!--Pode copiar daqui -->      
-<div class="bd-example">
-  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="<?php echo BASE_URL ?>assets/images/img1.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="<?php echo BASE_URL ?>assets/images/img2.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="<?php echo BASE_URL ?>assets/images/img3.png" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-</div>
-<!--Até aqui -->
-
-  <section class="principal">
-      <div class="coluna">
-        <figure class="foto"><img src="img/foto-01.jpg"></figure>
-        <h2>Conheça o coração cósmico.</h2>
-        <p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. </p>
-      </div>
-
-      <div class="coluna">
-        <figure class="foto"><img src="img/foto-02.jpg"></figure>
-        <h2>Passe as suas férias em marte.</h2>
-        <p>Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
-Aenean imperdiet.</p>
-      </div>
-
-      <div class="coluna">
-        <figure class="foto"><img src="img/foto-03.jpg"></figure>
-        <h2>Moda verão para as crateras lunares.</h2>
-        <p>Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum.
- Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.</p>
-      </div>
-
-      <div class="coluna">
-        <figure class="foto"><img src="img/foto-04.jpg"></figure>
-        <h2>Dicas do guia: Não esqueça a sua toalha.</h2>
-        <p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.</p>
+      <div class="DIV-coluna2">
+      <img class="IMG-Luciano" src="<?php echo BASE_URL; ?>Assets\Imagens\luciano editado2.png" alt="Luciano Ribeiro, Dono da Sebo Ventura" title="Luciano Ribeiro, dono do sebo ventura">
+        <p></p>
       </div>
     </section>
